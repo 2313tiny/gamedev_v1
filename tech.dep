@@ -1,0 +1,1 @@
+tech.dep tech.o: tech.cpp tech.hpp

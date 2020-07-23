@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CartesianAxis	source.cpp	/^CartesianAxis::CartesianAxis(Display * disp, Window wind, $/;"	f	class:CartesianAxis
+CartesianAxis	source.hpp	/^class CartesianAxis{$/;"	c
+Fenster	source.cpp	/^Fenster::Fenster(){$/;"	f	class:Fenster
+Fenster	source.hpp	/^class Fenster{$/;"	c
+GREEN	test.hpp	6;"	d
+OBJECTS	makefile	/^OBJECTS := $(patsubst %.cpp,%.o,$(SOURCES))$/;"	m
+RESET	test.hpp	7;"	d
+SOURCES	makefile	/^SOURCES := source.cpp main.cpp tech.cpp$/;"	m
+SOURCE_HPP	source.hpp	3;"	d
+TANK_HPP	tech.hpp	2;"	d
+TEST_HPP	test.hpp	2;"	d
+Tank	tech.cpp	/^Tank::Tank(Display * &dis, Window & wind,$/;"	f	class:Tank
+Tank	tech.hpp	/^class Tank{$/;"	c
+YELLOW	test.hpp	5;"	d
+axis	source.hpp	/^	axis() $/;"	f	struct:axis
+axis	source.hpp	/^	axis(int x, int y, int z)$/;"	f	struct:axis
+axis	source.hpp	/^struct axis{$/;"	s
+blue_bits	source.hpp	/^	char blue_bits[8] = "#0000FF";$/;"	m	class:CartesianAxis
+blue_bits	source.hpp	/^	const char blue_bits[8] = "#0000FF";$/;"	m	class:Fenster
+blue_col	source.hpp	/^	XColor blue_col;$/;"	m	class:CartesianAxis
+blue_col	source.hpp	/^	XColor blue_col;$/;"	m	class:Fenster
+colormap	source.hpp	/^	Colormap colormap;$/;"	m	class:CartesianAxis
+colormap	source.hpp	/^	Colormap colormap;$/;"	m	class:Fenster
+colormap	tech.hpp	/^	Colormap colormap;$/;"	m	class:Tank
+getDisplay	source.cpp	/^Display * Fenster:: getDisplay(){$/;"	f	class:Fenster
+getEvent	source.cpp	/^XEvent & Fenster:: getEvent(){}$/;"	f	class:Fenster
+getWindow	source.cpp	/^Window & Fenster::getWindow(){}$/;"	f	class:Fenster
+green_bits	source.hpp	/^	char green_bits[8] = "#00FF00";$/;"	m	class:CartesianAxis
+green_bits	source.hpp	/^	const char green_bits[8] = "#00FF00";$/;"	m	class:Fenster
+green_bits	tech.hpp	/^	const char green_bits[8] = "00FF00";$/;"	m	class:Tank
+green_col	source.hpp	/^	XColor green_col;$/;"	m	class:CartesianAxis
+green_col	source.hpp	/^	XColor green_col;$/;"	m	class:Fenster
+green_col	tech.hpp	/^	XColor green_col;$/;"	m	class:Tank
+m_a_x	source.hpp	/^	int m_a_x;$/;"	m	struct:axis
+m_a_y	source.hpp	/^	int m_a_y;$/;"	m	struct:axis
+m_a_z	source.hpp	/^	int m_a_z;$/;"	m	struct:axis
+m_display	source.hpp	/^	Display * m_display;$/;"	m	class:CartesianAxis
+m_display	source.hpp	/^	Display * m_display;$/;"	m	class:Fenster
+m_event	source.hpp	/^	XEvent m_event;$/;"	m	class:CartesianAxis
+m_event	source.hpp	/^	XEvent m_event;$/;"	m	class:Fenster
+m_gc	source.hpp	/^	GC m_gc; \/\/ graphical context;$/;"	m	class:CartesianAxis
+m_gc	source.hpp	/^	GC m_gc; \/\/ graphical context;$/;"	m	class:Fenster
+m_screen	source.hpp	/^	int m_screen;$/;"	m	class:CartesianAxis
+m_screen	source.hpp	/^	int m_screen;$/;"	m	class:Fenster
+m_window	source.hpp	/^	Window m_window;$/;"	m	class:CartesianAxis
+m_window	source.hpp	/^	Window m_window;$/;"	m	class:Fenster
+main	main.cpp	/^int main()$/;"	f
+red_bits	source.hpp	/^	char red_bits[8] = "#FF0000";$/;"	m	class:CartesianAxis
+red_bits	source.hpp	/^	const char red_bits[8] = "#FF0000";$/;"	m	class:Fenster
+red_col	source.hpp	/^	XColor red_col;$/;"	m	class:CartesianAxis
+red_col	source.hpp	/^	XColor red_col;$/;"	m	class:Fenster
+s_point	source.hpp	/^	axis * s_point; $/;"	m	class:CartesianAxis
+setDisplay	source.cpp	/^Display *& Fenster :: setDisplay(){$/;"	f	class:Fenster
+std	makefile	/^-include source.dep main.dep tech.dep  -std=c++11$/;"	m
+test_v1	test.hpp	/^void test_v1()$/;"	f
+test_v2	test.hpp	/^void test_v2()$/;"	f
+test_v3	test.hpp	/^void test_v3()$/;"	f
+yellow_bits	source.hpp	/^	char yellow_bits[8] = "#AFAFA1"; \/\/FFFF00$/;"	m	class:CartesianAxis
+yellow_bits	source.hpp	/^	const char yellow_bits[8] = "#AFAFA1"; \/\/FFFF00$/;"	m	class:Fenster
+yellow_col	source.hpp	/^	XColor yellow_col;$/;"	m	class:CartesianAxis
+yellow_col	source.hpp	/^	XColor yellow_col;$/;"	m	class:Fenster
+~CartesianAxis	source.cpp	/^CartesianAxis::~CartesianAxis()$/;"	f	class:CartesianAxis
+~Fenster	source.cpp	/^Fenster::~Fenster(){$/;"	f	class:Fenster
+~Tank	tech.hpp	/^	~Tank(){}	$/;"	f	class:Tank
